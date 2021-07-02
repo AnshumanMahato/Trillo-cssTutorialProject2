@@ -213,6 +213,11 @@ body {
   display: block;
 }
 
+.overview__icon-stars, .overview__icon-location {
+  width: 1.75rem;
+  height: 1.75rem;
+  fill: var(--color-primary);
+}
 .container {
   max-width: 120rem;
   margin: 8rem auto;
