@@ -223,12 +223,14 @@
 // HOTEL Overview
 
 .overview {
+    display: flex;
+
     &__heading {
 
     }
 
     &__stars {
-
+        margin-right:auto ;
     }
 
     &__icon-stars,
