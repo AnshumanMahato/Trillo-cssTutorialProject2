@@ -211,11 +211,10 @@
 
 .gallery {
 
-    &__item {
-
-    }
+    display: flex;
 
     &__photo {
-        
+        width: 100%;
+        display: block;
     }
 }
