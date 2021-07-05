@@ -405,3 +405,59 @@
         }
     }
 }
+
+////////////////////////////////////////////
+// REVIEW
+
+.review {
+
+    background-color: #fff;
+    box-shadow: var(--shadow-light);
+    padding: 3rem;
+    margin-bottom: 3.5rem;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    &__text {
+        margin-bottom: 2rem;
+    }
+
+    &__user {
+        display: flex;
+        justify-content: space-between;
+        align-items: stretch;
+        flex: 0 0 100%;
+    }
+
+    &__photo {
+        height: 4.5rem;
+        width: 4.5rem;
+        border-radius: 50%;
+        margin-right: 1.5rem;
+    }
+
+    &__user-box {
+        margin-right: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    &__user-name {
+        text-transform: uppercase;
+    }
+
+    &__user-date {
+        
+    }
+
+    &__rating {
+        color: var(--color-primary);
+        font-size: 2.5rem;
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
