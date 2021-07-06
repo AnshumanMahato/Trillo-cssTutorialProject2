@@ -416,8 +416,6 @@
     padding: 3rem;
     margin-bottom: 3.5rem;
 
-    display: flex;
-    flex-wrap: wrap;
 
     &__text {
         margin-bottom: 2rem;
@@ -425,9 +423,7 @@
 
     &__user {
         display: flex;
-        justify-content: space-between;
-        align-items: stretch;
-        flex: 0 0 100%;
+        align-items: center;
     }
 
     &__photo {
@@ -439,25 +435,23 @@
 
     &__user-box {
         margin-right: auto;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
     }
 
     &__user-name {
+        font-size: 1.1rem;
+        font-weight: 600;
         text-transform: uppercase;
+        margin-bottom: 4px;
     }
 
     &__user-date {
-        
+        font-size: 1rem;
+        color: var(--color-grey-dark-3);
     }
 
     &__rating {
         color: var(--color-primary);
         font-size: 2.5rem;
-        
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        font-weight: 600;
     }
 }
