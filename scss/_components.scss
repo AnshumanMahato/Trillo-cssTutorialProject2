@@ -295,10 +295,19 @@
     display: inline-block;
     background-color: transparent;
     cursor: pointer;
-    transition: all 0.2sec;
+    transition: all 0.2s;
+
+    & span {
+        margin-left: 4px;
+        transition: margin 0.2s;
+    }
 
     &:hover {
         color: var(--color-grey-dark-1);
+
+        span {
+            margin-left: 8px;
+        }
     }
 
     &:focus {
